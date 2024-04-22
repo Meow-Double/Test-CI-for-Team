@@ -1,0 +1,5 @@
+{
+  "*.css": ["stylelint --fix"],
+  "*.js": ["prettier --write"],
+  "*.ts": ["prettier --write", "eslint --no-error-on-unmatched-pattern --fix"]
+}
